@@ -70,7 +70,6 @@
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
     
     UITabBarController *tabVc = (UITabBarController *)window.rootViewController;
