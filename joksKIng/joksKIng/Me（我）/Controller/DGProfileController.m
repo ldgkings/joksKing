@@ -25,8 +25,23 @@
 #pragma mark - Navigation
 - (void)setUpNavigation
 {
-    self.title = @"我的";
+    self.navigationItem.title = @"我的";
+  UIBarButtonItem *moon =  [UIBarButtonItem barButtonItemWithImage:@"mine-moon-icon" highImage:@"mine-moon-icon-click" target:self action:@selector(moonClick)];
+  UIBarButtonItem *setting =  [UIBarButtonItem barButtonItemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(settingClick)];
+    self.navigationItem.rightBarButtonItems = @[setting,moon];
 }
+
+#pragma mark - 私有方法
+- (void)moonClick
+{
+
+}
+- (void)settingClick
+{
+    
+}
+
+#pragma mark - 网络请求
 
 
 @end

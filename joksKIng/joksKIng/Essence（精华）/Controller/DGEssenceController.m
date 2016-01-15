@@ -7,6 +7,7 @@
 //
 
 #import "DGEssenceController.h"
+#import "DGEssenceTagController.h"
 
 @interface DGEssenceController ()
 
@@ -27,7 +28,16 @@
 - (void)setUpNavigation
 {
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    [UIImage imageNamed:@"MainTagSubIconClick"];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(addtag)];
 }
 
+#pragma mark - 私有方法
+- (void)addtag
+{
+    DGEssenceTagController *tag = [[DGEssenceTagController alloc] init];
+    tag.title = @"标签订阅";
+    [self.navigationController pushViewController:tag animated:YES];
+}
 
 @end

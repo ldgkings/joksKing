@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3DB5D0775D4D472711D57D75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1493F57242E46C39A2AFDE7C /* libPods.a */; };
+		730AD9C21C4890E400C7B43C /* DGEssenceTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AD9C11C4890E400C7B43C /* DGEssenceTagController.m */; };
 		7343BE4D1C47740B007C9952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BE4C1C47740B007C9952 /* main.m */; };
 		7343BE581C47740B007C9952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7343BE571C47740B007C9952 /* Assets.xcassets */; };
 		7343BE5B1C47740B007C9952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343BE591C47740B007C9952 /* LaunchScreen.storyboard */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		1493F57242E46C39A2AFDE7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1CB570F6BAB210EE125135 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		730AD9C01C4890E400C7B43C /* DGEssenceTagController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGEssenceTagController.h; sourceTree = "<group>"; };
+		730AD9C11C4890E400C7B43C /* DGEssenceTagController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGEssenceTagController.m; sourceTree = "<group>"; };
 		7343BE481C47740B007C9952 /* joksKIng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joksKIng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7343BE4C1C47740B007C9952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7343BE571C47740B007C9952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -322,6 +325,8 @@
 			children = (
 				7343BEB41C477CFE007C9952 /* DGEssenceController.h */,
 				7343BEB51C477CFE007C9952 /* DGEssenceController.m */,
+				730AD9C01C4890E400C7B43C /* DGEssenceTagController.h */,
+				730AD9C11C4890E400C7B43C /* DGEssenceTagController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -589,6 +594,7 @@
 				7343BEAD1C477C5C007C9952 /* DGTabBarButton.m in Sources */,
 				7343BEA31C4779DC007C9952 /* DGNavigationController.m in Sources */,
 				7343BEC21C47DB15007C9952 /* UIBarButtonItem+Extension.m in Sources */,
+				730AD9C21C4890E400C7B43C /* DGEssenceTagController.m in Sources */,
 				7343BEA01C477966007C9952 /* DGTabBarController.m in Sources */,
 				7343BEC31C47DB15007C9952 /* UIImage+DGExtend.m in Sources */,
 				7343BEB61C477CFE007C9952 /* DGEssenceController.m in Sources */,

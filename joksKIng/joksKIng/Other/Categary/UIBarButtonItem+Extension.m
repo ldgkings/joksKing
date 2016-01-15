@@ -14,16 +14,12 @@
 + (UIBarButtonItem *)barButtonItemWithImage:(NSString *)image highImage:(NSString *)highImage target:(id)target action:(SEL)action
 {
     UIButton *Btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
     // 设置图片
     [Btn setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
     [Btn setBackgroundImage:[UIImage imageNamed:highImage] forState:UIControlStateHighlighted];
     [Btn sizeToFit];
-    
     // 监听点击
     [Btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    
-    
     return  [[UIBarButtonItem alloc] initWithCustomView:Btn];
 }
 
@@ -37,10 +33,9 @@
     [Btn setTitle:title forState:UIControlStateNormal];
     // 设置文字
     [Btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [Btn setTitleColor:[UIColor orangeColor] forState:UIControlStateHighlighted];
+    [Btn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     // 设置文字大小
     Btn.titleLabel.font = DGNavItemTitleSize;
-    
     [Btn sizeToFit];
     
     // 监听点击

@@ -14,14 +14,20 @@
 @interface DGTabBar ()
 
 @property (nonatomic, weak) UIButton *plusButton;
-
 @property (nonatomic, strong) NSMutableArray *buttons;
-
 @property (nonatomic, weak) UIButton *selectedButton;
 
 @end
 
 @implementation DGTabBar
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"tabbar-light"]];
+    }
+    return self;
+}
 
 - (NSMutableArray *)buttons
 {
@@ -41,7 +47,6 @@
     for (UITabBarItem *item in _items) {
         
         DGTabBarButton *btn = [DGTabBarButton buttonWithType:UIButtonTypeCustom];
-        
         // 给按钮赋值模型，按钮的内容由模型对应决定
         btn.item = item;
         
@@ -113,7 +118,6 @@
     CGFloat btnY = 0;
     CGFloat btnW = w / (self.items.count + 1);
     CGFloat btnH = self.bounds.size.height;
-    
     
     int i = 0;
     // 设置tabBarButton的frame

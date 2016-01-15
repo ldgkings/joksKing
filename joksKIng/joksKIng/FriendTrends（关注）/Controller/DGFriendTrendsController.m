@@ -25,7 +25,17 @@
 #pragma mark - Navigation
 - (void)setUpNavigation
 {
-    self.title = @"我的关注";
+    self.navigationItem.title = @"我的关注";
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsRecomment)];
+}
+
+#pragma mark - 私有方法
+/**
+ * 添加关注朋友
+ */
+- (void)friendsRecomment
+{
+    
 }
 
 
