@@ -94,19 +94,14 @@
     }
 }
 
-
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
-    
     UITabBarController *tabVc = (UITabBarController *)window.rootViewController;
-    
     for (UIView *tabBarButton in tabVc.tabBar.subviews) {
-        
         if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             [tabBarButton removeFromSuperview];
         }
-        
     }
 }
 

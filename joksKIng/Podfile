@@ -8,5 +8,7 @@ pod 'MJRefresh'                            # 上下拉刷新
 pod 'SDWebImage'                           # 网络图片获取、缓存
 pod 'FMDB'                                 # 数据库
 pod 'MJExtension'                          # 轻量级字典转模型
-pod 'DZNEmptyDataSet'                       # 空数据页面展示
+pod 'DZNEmptyDataSet'                       # tableView空数据页面展示
 pod 'SDCycleScrollView','~> 1.3'            # 无限循环自动图片轮播器
+pod 'NJKWebViewProgress'                    # 为 UIWebView 添加进度条
+pod 'MBProgressHUD'                         # 通知视图

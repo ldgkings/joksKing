@@ -17,6 +17,10 @@
 #import "UIImage+DGExtend.h"
 #import "UIBarButtonItem+Extension.h"
 
+
+// 全局的常亮
+#import "DGConst.h"
+
 #ifdef DEBUG // 调试状态
 #define DGLog(...) NSLog(__VA_ARGS__) //给nslog起个别名
 #else
@@ -26,11 +30,17 @@
 // 设置颜色和随机色
 #define DGColor(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define DGRandomColor DGColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define DGGrayColor(v) DGColor(v, v, v)
+#define DGCommonBgColor DGGrayColor(206)
 
 // 导航栏相关的
 #define DGNavItemTitleSize [UIFont systemFontOfSize:15]
 
+// 简单处理一些打印
+#define DGLogFuc DGLog(@"%s", __func__);
 
+// 简单发通知
+#define DGNotificationCenter [NSNotificationCenter defaultCenter]
 
 
 #endif /* Prefix_pch */

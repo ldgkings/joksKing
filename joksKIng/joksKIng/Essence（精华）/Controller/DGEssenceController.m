@@ -28,7 +28,6 @@
 - (void)setUpNavigation
 {
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
-    [UIImage imageNamed:@"MainTagSubIconClick"];
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(addtag)];
 }
 

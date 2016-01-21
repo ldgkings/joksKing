@@ -21,12 +21,19 @@
 		7343BEAC1C477C5C007C9952 /* DGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEA81C477C5C007C9952 /* DGTabBar.m */; };
 		7343BEAD1C477C5C007C9952 /* DGTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEAA1C477C5C007C9952 /* DGTabBarButton.m */; };
 		7343BEB01C477CCD007C9952 /* DGProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEAF1C477CCD007C9952 /* DGProfileController.m */; };
-		7343BEB31C477CE9007C9952 /* DGFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEB21C477CE9007C9952 /* DGFriendTrendsController.m */; };
 		7343BEB61C477CFE007C9952 /* DGEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEB51C477CFE007C9952 /* DGEssenceController.m */; };
 		7343BEB91C477D16007C9952 /* DGNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEB81C477D16007C9952 /* DGNewController.m */; };
 		7343BEBD1C47D71C007C9952 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEBC1C47D71C007C9952 /* UIView+Extension.m */; };
 		7343BEC21C47DB15007C9952 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEBF1C47DB15007C9952 /* UIBarButtonItem+Extension.m */; };
 		7343BEC31C47DB15007C9952 /* UIImage+DGExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343BEC11C47DB15007C9952 /* UIImage+DGExtend.m */; };
+		7344B7151C509DE100CBAA72 /* DGLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344B7141C509DE100CBAA72 /* DGLoginTextField.m */; };
+		7344B7181C50A57300CBAA72 /* UITextField+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344B7171C50A57300CBAA72 /* UITextField+XMGExtension.m */; };
+		7344B71B1C50C5A300CBAA72 /* DGQuicklyLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344B71A1C50C5A300CBAA72 /* DGQuicklyLoginButton.m */; };
+		7344B71F1C50D68C00CBAA72 /* DGConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7344B71E1C50D68C00CBAA72 /* DGConst.m */; };
+		7373A7A71C4F79E20042CB1A /* DGFriendTrendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373A7A51C4F79E20042CB1A /* DGFriendTrendsController.m */; };
+		7373A7A81C4F79E20042CB1A /* DGFriendTrendsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7373A7A61C4F79E20042CB1A /* DGFriendTrendsController.xib */; };
+		7373A7AC1C4F9C7A0042CB1A /* DGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7373A7AA1C4F9C7A0042CB1A /* DGLoginViewController.m */; };
+		7373A7AD1C4F9C7A0042CB1A /* DGLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7373A7AB1C4F9C7A0042CB1A /* DGLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +84,6 @@
 		7343BEAA1C477C5C007C9952 /* DGTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGTabBarButton.m; sourceTree = "<group>"; };
 		7343BEAE1C477CCD007C9952 /* DGProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGProfileController.h; sourceTree = "<group>"; };
 		7343BEAF1C477CCD007C9952 /* DGProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGProfileController.m; sourceTree = "<group>"; };
-		7343BEB11C477CE9007C9952 /* DGFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGFriendTrendsController.h; sourceTree = "<group>"; };
-		7343BEB21C477CE9007C9952 /* DGFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGFriendTrendsController.m; sourceTree = "<group>"; };
 		7343BEB41C477CFE007C9952 /* DGEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGEssenceController.h; sourceTree = "<group>"; };
 		7343BEB51C477CFE007C9952 /* DGEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGEssenceController.m; sourceTree = "<group>"; };
 		7343BEB71C477D16007C9952 /* DGNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGNewController.h; sourceTree = "<group>"; };
@@ -89,6 +94,20 @@
 		7343BEBF1C47DB15007C9952 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		7343BEC01C47DB15007C9952 /* UIImage+DGExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DGExtend.h"; sourceTree = "<group>"; };
 		7343BEC11C47DB15007C9952 /* UIImage+DGExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DGExtend.m"; sourceTree = "<group>"; };
+		7344B7131C509DE100CBAA72 /* DGLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLoginTextField.h; sourceTree = "<group>"; };
+		7344B7141C509DE100CBAA72 /* DGLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLoginTextField.m; sourceTree = "<group>"; };
+		7344B7161C50A57300CBAA72 /* UITextField+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+XMGExtension.h"; sourceTree = "<group>"; };
+		7344B7171C50A57300CBAA72 /* UITextField+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XMGExtension.m"; sourceTree = "<group>"; };
+		7344B7191C50C5A300CBAA72 /* DGQuicklyLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGQuicklyLoginButton.h; sourceTree = "<group>"; };
+		7344B71A1C50C5A300CBAA72 /* DGQuicklyLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGQuicklyLoginButton.m; sourceTree = "<group>"; };
+		7344B71D1C50D68C00CBAA72 /* DGConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGConst.h; sourceTree = "<group>"; };
+		7344B71E1C50D68C00CBAA72 /* DGConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGConst.m; sourceTree = "<group>"; };
+		7373A7A41C4F79E20042CB1A /* DGFriendTrendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGFriendTrendsController.h; sourceTree = "<group>"; };
+		7373A7A51C4F79E20042CB1A /* DGFriendTrendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGFriendTrendsController.m; sourceTree = "<group>"; };
+		7373A7A61C4F79E20042CB1A /* DGFriendTrendsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGFriendTrendsController.xib; sourceTree = "<group>"; };
+		7373A7A91C4F9C7A0042CB1A /* DGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGLoginViewController.h; sourceTree = "<group>"; };
+		7373A7AA1C4F9C7A0042CB1A /* DGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGLoginViewController.m; sourceTree = "<group>"; };
+		7373A7AB1C4F9C7A0042CB1A /* DGLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DGLoginViewController.xib; sourceTree = "<group>"; };
 		810AA31454F2130BED540847 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -303,6 +322,7 @@
 		7343BE8A1C477750007C9952 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				7344B71C1C50D67900CBAA72 /* Const */,
 				7343BEBA1C47D6EC007C9952 /* Categary */,
 				7343BE8B1C477750007C9952 /* AppDelegate.h */,
 				7343BE8C1C477750007C9952 /* AppDelegate.m */,
@@ -358,8 +378,12 @@
 		7343BE9B1C4777C2007C9952 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7343BEB11C477CE9007C9952 /* DGFriendTrendsController.h */,
-				7343BEB21C477CE9007C9952 /* DGFriendTrendsController.m */,
+				7373A7A41C4F79E20042CB1A /* DGFriendTrendsController.h */,
+				7373A7A51C4F79E20042CB1A /* DGFriendTrendsController.m */,
+				7373A7A61C4F79E20042CB1A /* DGFriendTrendsController.xib */,
+				7373A7A91C4F9C7A0042CB1A /* DGLoginViewController.h */,
+				7373A7AA1C4F9C7A0042CB1A /* DGLoginViewController.m */,
+				7373A7AB1C4F9C7A0042CB1A /* DGLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -374,6 +398,10 @@
 		7343BE9D1C4777C2007C9952 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7344B7131C509DE100CBAA72 /* DGLoginTextField.h */,
+				7344B7141C509DE100CBAA72 /* DGLoginTextField.m */,
+				7344B7191C50C5A300CBAA72 /* DGQuicklyLoginButton.h */,
+				7344B71A1C50C5A300CBAA72 /* DGQuicklyLoginButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -381,6 +409,8 @@
 		7343BEBA1C47D6EC007C9952 /* Categary */ = {
 			isa = PBXGroup;
 			children = (
+				7344B7161C50A57300CBAA72 /* UITextField+XMGExtension.h */,
+				7344B7171C50A57300CBAA72 /* UITextField+XMGExtension.m */,
 				7343BEBE1C47DB15007C9952 /* UIBarButtonItem+Extension.h */,
 				7343BEBF1C47DB15007C9952 /* UIBarButtonItem+Extension.m */,
 				7343BEC01C47DB15007C9952 /* UIImage+DGExtend.h */,
@@ -389,6 +419,15 @@
 				7343BEBC1C47D71C007C9952 /* UIView+Extension.m */,
 			);
 			path = Categary;
+			sourceTree = "<group>";
+		};
+		7344B71C1C50D67900CBAA72 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				7344B71D1C50D68C00CBAA72 /* DGConst.h */,
+				7344B71E1C50D68C00CBAA72 /* DGConst.m */,
+			);
+			path = Const;
 			sourceTree = "<group>";
 		};
 		79CD9519FDDF84B7E5CF3C0D /* Frameworks */ = {
@@ -510,6 +549,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7343BE5B1C47740B007C9952 /* LaunchScreen.storyboard in Resources */,
+				7373A7AD1C4F9C7A0042CB1A /* DGLoginViewController.xib in Resources */,
+				7373A7A81C4F79E20042CB1A /* DGFriendTrendsController.xib in Resources */,
 				7343BE581C47740B007C9952 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,20 +624,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7343BEB31C477CE9007C9952 /* DGFriendTrendsController.m in Sources */,
 				7343BEB01C477CCD007C9952 /* DGProfileController.m in Sources */,
 				7343BEAC1C477C5C007C9952 /* DGTabBar.m in Sources */,
 				7343BE8D1C477750007C9952 /* AppDelegate.m in Sources */,
+				7373A7A71C4F79E20042CB1A /* DGFriendTrendsController.m in Sources */,
 				7343BEAB1C477C5C007C9952 /* DGBadgeView.m in Sources */,
+				7373A7AC1C4F9C7A0042CB1A /* DGLoginViewController.m in Sources */,
+				7344B7151C509DE100CBAA72 /* DGLoginTextField.m in Sources */,
 				7343BE4D1C47740B007C9952 /* main.m in Sources */,
+				7344B71B1C50C5A300CBAA72 /* DGQuicklyLoginButton.m in Sources */,
 				7343BEBD1C47D71C007C9952 /* UIView+Extension.m in Sources */,
 				7343BEB91C477D16007C9952 /* DGNewController.m in Sources */,
 				7343BEAD1C477C5C007C9952 /* DGTabBarButton.m in Sources */,
 				7343BEA31C4779DC007C9952 /* DGNavigationController.m in Sources */,
+				7344B7181C50A57300CBAA72 /* UITextField+XMGExtension.m in Sources */,
 				7343BEC21C47DB15007C9952 /* UIBarButtonItem+Extension.m in Sources */,
 				730AD9C21C4890E400C7B43C /* DGEssenceTagController.m in Sources */,
 				7343BEA01C477966007C9952 /* DGTabBarController.m in Sources */,
 				7343BEC31C47DB15007C9952 /* UIImage+DGExtend.m in Sources */,
+				7344B71F1C50D68C00CBAA72 /* DGConst.m in Sources */,
 				7343BEB61C477CFE007C9952 /* DGEssenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
