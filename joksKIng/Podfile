@@ -11,4 +11,4 @@ pod 'MJExtension'                          # 轻量级字典转模型
 pod 'DZNEmptyDataSet'                       # tableView空数据页面展示
 pod 'SDCycleScrollView','~> 1.3'            # 无限循环自动图片轮播器
 pod 'NJKWebViewProgress'                    # 为 UIWebView 添加进度条
-pod 'MBProgressHUD'                         # 通知视图
+pod 'SVProgressHUD'                         # 通知视图

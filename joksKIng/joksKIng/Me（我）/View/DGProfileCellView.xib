@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OvT-Mn-UFO" customClass="DGProfileCellView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNa-Cp-3c0">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="600"/>
+                    <state key="normal" title="#美女#">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToH-dH-DIE">
+                    <rect key="frame" x="301" y="0.0" width="299" height="600"/>
+                    <state key="normal" title="#自拍#">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view alpha="0.050000000000000003" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXu-pM-9qb">
+                    <rect key="frame" x="300" y="0.0" width="1" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Lr0-sw-c8k"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="aXu-pM-9qb" secondAttribute="bottom" id="EaT-p3-AM6"/>
+                <constraint firstAttribute="bottom" secondItem="ToH-dH-DIE" secondAttribute="bottom" id="FGX-Nn-Wl8"/>
+                <constraint firstItem="dNa-Cp-3c0" firstAttribute="top" secondItem="OvT-Mn-UFO" secondAttribute="top" id="NNA-3U-FlR"/>
+                <constraint firstItem="aXu-pM-9qb" firstAttribute="leading" secondItem="dNa-Cp-3c0" secondAttribute="trailing" id="XNp-Vx-55e"/>
+                <constraint firstItem="aXu-pM-9qb" firstAttribute="top" secondItem="OvT-Mn-UFO" secondAttribute="top" id="YXl-KQ-X50"/>
+                <constraint firstItem="dNa-Cp-3c0" firstAttribute="leading" secondItem="OvT-Mn-UFO" secondAttribute="leading" id="e1o-Os-XdM"/>
+                <constraint firstItem="ToH-dH-DIE" firstAttribute="top" secondItem="OvT-Mn-UFO" secondAttribute="top" id="fYy-Ta-s0j"/>
+                <constraint firstItem="dNa-Cp-3c0" firstAttribute="width" secondItem="OvT-Mn-UFO" secondAttribute="width" multiplier="0.5" id="iGG-PY-vrq"/>
+                <constraint firstAttribute="bottom" secondItem="dNa-Cp-3c0" secondAttribute="bottom" id="lkK-KX-VjB"/>
+                <constraint firstAttribute="trailing" secondItem="ToH-dH-DIE" secondAttribute="trailing" id="vOo-N6-nEg"/>
+                <constraint firstItem="ToH-dH-DIE" firstAttribute="leading" secondItem="dNa-Cp-3c0" secondAttribute="trailing" constant="1" id="z44-6D-M1W"/>
+            </constraints>
+            <point key="canvasLocation" x="518" y="253"/>
+        </view>
+    </objects>
+</document>

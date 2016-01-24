@@ -12,35 +12,42 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-// 一些全局的头文件
-#import "UIView+Extension.h"
-#import "UIImage+DGExtend.h"
-#import "UIBarButtonItem+Extension.h"
 
 
-// 全局的常亮
-#import "DGConst.h"
+// ############################################# 适合任何项目 ############################################
 
+// 写到桌面的plist
+#define DGWriteToPlist(obj, filename) [obj writeToFile:[NSString stringWithFormat:@"/Users/ldg/Desktop/%@.plist", filename] atomically:YES];
+
+// 自己定义输出
 #ifdef DEBUG // 调试状态
 #define DGLog(...) NSLog(__VA_ARGS__) //给nslog起个别名
 #else
 #define DGLog(...)
 #endif
+// 简单处理一些打印
+#define DGLogFuc DGLog(@"%s", __func__);
 
 // 设置颜色和随机色
 #define DGColor(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
 #define DGRandomColor DGColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 #define DGGrayColor(v) DGColor(v, v, v)
-#define DGCommonBgColor DGGrayColor(206)
-
-// 导航栏相关的
-#define DGNavItemTitleSize [UIFont systemFontOfSize:15]
-
-// 简单处理一些打印
-#define DGLogFuc DGLog(@"%s", __func__);
 
 // 简单发通知
 #define DGNotificationCenter [NSNotificationCenter defaultCenter]
 
+// ######################################## 本项目相关 ####################################################
+
+// 一些全局的头文件
+#import "UIView+Extension.h"
+#import "UIImage+DGExtend.h"
+#import "UIBarButtonItem+Extension.h"
+#import "DGConst.h"
+
+// 全局的背景色
+#define DGCommonBgColor DGGrayColor(206)
+
+// 导航栏相关的
+#define DGNavItemTitleSize [UIFont systemFontOfSize:15]
 
 #endif /* Prefix_pch */

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DGProfileController : UIViewController
+@interface DGProfileController : UITableViewController
 
 @end
