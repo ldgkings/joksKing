@@ -52,7 +52,7 @@
     [self setUpTabBar];
 }
 
-- (void)setupCOlor
+- (void)setupcolorstring
 {
     
 }
