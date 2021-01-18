@@ -54,7 +54,7 @@
 
 - (void)setupcolorstring
 {
-    
+    NSLog(@"1111"); 
 }
 
 // 在这个方法中才会加载tabBar的自控件 所以在viewdidload中把tabBar设置成dgTabBar；
